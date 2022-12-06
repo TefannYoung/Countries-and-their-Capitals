@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>  
+   <link rel="stylesheet" href="../style.css">
+   <style>
+    #oc {
+        border-collapse: collapse;
+        width: 100%;
+        position: absolute;
+    }
+    #oc td, #oc th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+    #oc tr:nth-child(even){background-color: #f2f2f2;}
+
+    #oc tr:hover {background-color: #ddd;}
+
+    #oc th {
+        padding: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #04AA6D;
+        color: white;
+    }
+   </style>
+</head>
+<body>
+    <figure class="table">
+        <table id="oc">
+        <tbody>
+            <tr>
+                <th>Country</th>
+                <th>Capital</th>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Afganistan</strong>
+                </td>
+                <td>
+                    <strong>Kabul</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Armenia</strong>
+                </td>
+                <td>
+                    <strong>Yerevan</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Azerbaijan</strong>
+                </td>
+                <td>
+                    <strong>Baku</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Bahrain</strong>
+                </td>
+                <td>
+                    <strong>Manama</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Bangladesh</strong>
+                </td>
+                <td>
+                    <strong>Dhaka</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Bhutan</strong>
+                </td>
+                <td>
+                    <strong>Thimphu</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Brunei</strong>
+                </td>
+                <td>
+                    <strong>Bandar Seri Begawan</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Cambodia</strong>
+                </td>
+                <td>
+                    <strong>Phom Penh</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>China</strong>
+                </td>
+                <td>
+                    <strong>Beijing</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Cyprus</strong>
+                </td>
+                <td>
+                    <strong>Nicosia</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>East Timor</strong>
+                </td>
+                <td>
+                    <strong>Dili</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Georgia</strong>
+                </td>
+                <td>
+                    <strong>Tbilisi</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>India</strong>
+                </td>
+                <td>
+                    <strong>New Delhi</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Indonesia</strong>
+                </td>
+                <td>
+                    <strong>Jakarta</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Iran</strong>
+                </td>
+                <td>
+                    <strong>Tehran</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Iraq</strong>
+                </td>
+                <td>
+                    <strong>Baghdad</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Israel</strong>
+                </td>
+                <td>
+                    <strong>Jerusalem</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Japan</strong>
+                </td>
+                <td>
+                    <strong>Tokyo</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Jordan</strong>
+                </td>
+                <td>
+                    <strong>Amman</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Kazakhstan</strong>
+                </td>
+                <td>
+                    <strong>Nur-Sultan</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Kuwait</strong>
+                </td>
+                <td>
+                    <strong>Kuwait City</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Kyrgyzstan</strong>
+                </td>
+                <td>
+                    <strong>Bishkek</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Loas</strong>
+                </td>
+                <td>
+                    <strong>Vientiane</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Lebanon</strong>
+                </td>
+                <td>
+                    <strong>Beirut</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Malaysia</strong>
+                </td>
+                <td>
+                    <strong>Kuala Lumpur</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Maldives</strong>
+                </td>
+                <td>
+                    <strong>Male</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Mongolia</strong>
+                </td>
+                <td>
+                    <strong>Ulaanbaatar</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Myanmar</strong>
+                </td>
+                <td>
+                    <strong>Naypyidaw</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Nepal</strong>
+                </td>
+                <td>
+                    <strong>Kathmandu</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>North Korea</strong>
+                </td>
+                <td>
+                    <strong>Pyongyang</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Oman</strong>
+                </td>
+                <td>
+                    <strong>Muscat</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Pakistan</strong>
+                </td>
+                <td>
+                    <strong>Islamabad</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Philippines</strong>
+                </td>
+                <td>
+                    <strong>Manila</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Qatar</strong>
+                </td>
+                <td>
+                    <strong>Doha</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Russia</strong>
+                </td>
+                <td>
+                    <strong>Moscow</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Saudi Arabia</strong>
+                </td>
+                <td>
+                    <strong>Riyadh</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Singapore</strong>
+                </td>
+                <td>
+                    <strong>Singapore</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>South Korea</strong>
+                </td>
+                <td>
+                    <strong>Seoul</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Sri Lanka</strong>
+                </td>
+                <td>
+                    <strong>Sri Jayawardenepura Kotte</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Syria</strong>
+                </td>
+                <td>
+                    <strong>Damascus</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Taijikistan</strong>
+                </td>
+                <td>
+                    <strong>Dushanbe</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Thailand</strong>
+                </td>
+                <td>
+                    <strong>Bangkok</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Turkey</strong>
+                </td>
+                <td>
+                    <strong>Ankara</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Turkmenistan</strong>
+                </td>
+                <td>
+                    <strong>Ashgabat</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>United Arab Emirates</strong>
+                </td>
+                <td>
+                    <strong>Abu Dhabi</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Uzbekistan</strong>
+                </td>
+                <td>
+                    <strong>Tashkent</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Vietnam</strong>
+                </td>
+                <td>
+                    <strong>Hanoi</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Yemen</strong>
+                </td>
+                <td>
+                    <strong>Sana'a</strong>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </figure>
+    </body>
+    </html>
